@@ -11,10 +11,12 @@ import {
   LinkedInIcon,
   XIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+
+import logoCyberjee from '@/images/logos/cyberjee.svg'
+import logoGt from '@/images/logos/gt.svg'
+import logoMhi from '@/images/logos/mhi.svg'
+import logoStoryline from '@/images/logos/storyline.svg'
+
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -174,35 +176,38 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Storyline Health Navigation',
+      title: 'Co-founder, full-stack developer',
+      logo: logoStoryline,
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Cyberjee Systems',
+      title: 'Front-end developer',
+      logo: logoCyberjee,
+      start: '2021',
+      end: '2023',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Mitsubishi Heavy Industries',
+      title: 'Sr. Financial Reporting Accountant',
+      logo: logoMhi,
+      start: '2021',
+      end: {
+        label: 'Present',
+        dateTime: new Date().getFullYear().toString(),
+      },
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Grant Thornton',
+      title: 'Senior Auditor II',
+      logo: logoGt,
+      start: '2019',
+      end: '2021',
     },
   ]
 
