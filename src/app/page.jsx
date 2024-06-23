@@ -268,10 +268,10 @@ export default async function Home() {
             Software developer, with a focus on Front-end development.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Kamran. A former accountant turned software developer. I bounce
+            between Houston and New York. This website serves as my resume and
+            portfolio. I hope you love what you see and look forward to
+            collaborating with you in the future.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
