@@ -274,19 +274,13 @@ export default async function Home() {
             collaborating with you in the future.
           </p>
           <div className="mt-6 flex gap-6">
-            <SocialLink href="#" aria-label="Follow on X" icon={XIcon} />
             <SocialLink
-              href="#"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="#"
+              href="https://github.com/JustAGyro"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="#"
+              href="https://www.linkedin.com/in/kamranzqureshi/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
