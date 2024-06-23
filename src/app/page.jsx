@@ -16,6 +16,7 @@ import logoCyberjee from '@/images/logos/cyberjee.svg'
 import logoGt from '@/images/logos/gt.svg'
 import logoMhi from '@/images/logos/mhi.svg'
 import logoStoryline from '@/images/logos/storyline.svg'
+import portraitImage from '@/images/headshot.jpg'
 
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
